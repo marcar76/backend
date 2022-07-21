@@ -1,4 +1,4 @@
-# tutorial_jwt_BACK
-jwt security api REST 
+# ARGPROG
 
-basic CRUD with JWT authentication based on roles
+v0.9: Add: jwt security  
+
