@@ -41,7 +41,7 @@ public class ExperienciaLaboral implements Serializable {
 
 
 
-      @ManyToOne (fetch = FetchType.EAGER, optional=false, cascade=CascadeType.ALL)
+      @ManyToOne (fetch = FetchType.EAGER, optional=false)
     @JoinColumn(name = "idtipo")
     //@JsonProperty(access=Access.WRITE_ONLY)
     private Tipo_Empleo tipoempleo;
